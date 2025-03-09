@@ -1,38 +1,45 @@
 html,
-body{
-background-color: rgb(255, 255, 255);
-font-family: "Rubik", sans-serif;;
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: "Rubik", sans-serif;
+    color: rgb(48, 48, 48); /* Исправленный цвет текста */
 }
-header{
-    background-color: #390fce;
-    height: 30px;
 
+header {
+    background-color: rgb(41, 101, 241); /* Исправленный цвет фона */
+    height: 30px;
 }
-.header a{
+
+.header a {
     color: aliceblue;
     text-decoration: none;
 }
-ul{
+
+ul {
     list-style-type: none;
     padding-left: 0;
 }
-.ul li{
+
+ul li {  /* Исправлено */
     background-image: url(image2.png);
     background-repeat: no-repeat;
-    background-size:2% ;
-    padding-left:15px ;
+    background-size: 2%;
+    padding-left: 15px;
 }
-button{
+
+button {
     background-color: blue;
     color: aliceblue;
-    height:35px;
+    height: 35px;
     border-radius: 13%;
 }
-footer{
+
+footer {
     background-color: rgb(127, 163, 255);
     height: 30px;
 }
-.footer a{
+
+.footer a {
     color: rgb(34, 0, 120);
     text-decoration: none;
 }

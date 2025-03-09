@@ -1,106 +1,107 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-        <title>it-incubator, дз Рудик Софии</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Sacramento&family=Yellowtail&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <header class="header">
-            <a href="https://it-incubator.io/">IT-INCUBATOR</a>
-        </header>
+<head>
+    <title>it-incubator, дз Рудик Софии</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <a href="https://it-incubator.io/">IT-INCUBATOR</a>
+    </header>
 
-        <article data-cy="hw1-section-main-pre">
-            <h1>Рудик София Сергеевна</h1>
-            <p>Я изучаю программирование в IT-INCUBATOR. Это очень интересный и сложный процесс, но я готова к новым вызовам. Моя цель — стать профессиональным разработчиком!</p>
-            <img src="image1.png" alt="Фото студента" width="715px">
-        </article>
+    <article>
+        <h1>Рудик София Сергеевна</h1>
+        <p>Я изучаю программирование в IT-INCUBATOR. Это очень интересный и сложный процесс, но я готова к новым вызовам. Моя цель — стать профессиональным разработчиком!</p>
+        <img src="image1.png" alt="Фото студента" width="715px">
+    </article>
 
-        <section data-cy="hw1-section-about-pre">
-            <h2>Выбор города</h2>
-            <select name="city" required>
-                <option value="Минск">Минск</option>
-                <option value="Гродно" selected>Гродно</option>
-                <option value="Гомель">Гомель</option>
-            </select>
+    <section>
+        <h2>Выбор города</h2>
+        <select name="city" required>
+            <option value="Минск">Минск</option>
+            <option value="Гродно" selected>Гродно</option>
+            <option value="Гомель">Гомель</option>
+        </select>
+        <br>
+        <label for="new-skill">Новый скилл</label>
+        <input type="text" id="new-skill" placeholder="Новый скилл">
+    </section>
+
+    <section>
+        <h2>Любимые фреймворки</h2>
+        <ul>
+            <li>React</li>
+            <li>Angular</li>
+            <li>Vue</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Топ сериалов</h2>
+        <ol>
+            <li>Дневники вампира</li>
+            <li>Анатомия страсти</li>
+            <li>Служба спасения 911</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>Мои скиллы</h2>
+        <form>
+            <label>
+                <input type="checkbox" name="skill" value="HTML5">
+                Хочу изучать HTML5
+            </label>
+            <label>
+                <input type="checkbox" name="skill" value="CSS3">
+                Хочу изучать CSS3
+            </label>
+            <label>
+                <input type="checkbox" name="skill" value="JS">
+                Хочу изучать JS
+            </label>
             <br>
-            <label for="new-skill">Новый скилл</label>
-            <input type="text" id="new-skill" placeholder="Новый скилл">
-        </section>
+            <label for="new-skill-form">Новый скилл</label>
+            <input type="text" id="new-skill-form" placeholder="Введите новый скилл">
+            <button class="addButton">Добавить</button>
+            <hr>
+        </form>
+    </section>
 
-        <section data-cy="hw1-unordered-list-box-pre">
-            <h2>Любимые фреймворки</h2>
-            <ul>
-                <li>React</li>
-                <li>Angular</li>
-                <li>Vue</li>
-            </ul>
-        </section>
+    <hr>
 
-        <section data-cy="hw1-ordered-list-box-pre">
-            <h2>Топ сериалов</h2>
-            <ol>
-                <li>Дневники вампира</li>
-                <li>Анатомия страсти</li>
-                <li>Служба спасения 911</li>
-            </ol>
-        </section>
+    <table border="1">
+        <tr>
+            <th>п/п</th>
+            <th>Наименование</th>
+            <th>Количество</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Монитор</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Клавиатура</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Мышь</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td colspan="2">Итого:</td>
+            <td>7</td>
+        </tr>
+    </table>
 
-        <section data-cy="hw1-skills-box-pre">
-            <h2>Мои скиллы</h2>
-            <form>
-                <label>
-                    <input type="checkbox" name="skill" value="HTML5">
-                    Хочу изучать HTML5
-                </label>
-                <label>
-                    <input type="checkbox" name="skill" value="CSS3">
-                    Хочу изучать CSS3
-                </label>
-                <label>
-                    <input type="checkbox" name="skill" value="JS">
-                    Хочу изучать JS
-                </label>
-                <br>
-                <label for="new-skill-form">Новый скилл</label>
-                <input type="text" id="new-skill-form" placeholder="Введите новый скилл">
-                <button class="addButton">Добавить</button>
-                <hr>
-            </form>
-        </section>
-
-        <hr>
-
-        <table border="1" data-cy="hw-about-table-pre">
-            <tr>
-                <th>п/п</th>
-                <th>Наименование</th>
-                <th>Количество</th>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>Монитор</td>
-                <td>2</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Клавиатура</td>
-                <td>1</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Мышь</td>
-                <td>4</td>
-            </tr>
-            <tr>
-                <td colspan="2">Итого:</td>
-                <td>7</td>
-            </tr>
-        </table>
-        <footer class="footer" data-cy="hw-footer-pre">
-            <a href="https://it-incubator.io/">IT-INCUBATOR</a>
-        </footer>
-    </body>
+    <footer class="footer">
+        <a href="https://it-incubator.io/">IT-INCUBATOR</a>
+    </footer>
+</body>
 </html>
