@@ -54,7 +54,8 @@ select {
     padding: 10px;
     font-size: 16px;
     border: 2px solid #ccc;
-    background-repeat: no-repeat; /* Исправлено */
+    background-image: none; /* Добавлено */
+    background-repeat: no-repeat;
 }
 
 
