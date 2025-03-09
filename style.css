@@ -49,13 +49,14 @@ section {
     padding: 100px 0px;
     margin-top: 20px;
 }
-
 select {
     width: 200px;
     padding: 10px;
     font-size: 16px;
     border: 2px solid #ccc;
+    background-repeat: no-repeat; /* Исправлено */
 }
+
 
 h2 {
     margin-bottom: 25px;
