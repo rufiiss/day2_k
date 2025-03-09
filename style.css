@@ -11,7 +11,7 @@ body {
 }
 
 .header {
-    background-color: rgb(41, 101, 241); /* Исправленный цвет */
+    background-color: rgb(41, 101, 241);
     padding: 20px;
     text-align: center;
 }
@@ -24,7 +24,7 @@ body {
 
 article {
     background-color: #ffffff;
-    padding: 60px 0px; /* Исправленный padding */
+    padding: 60px 0px;
     text-align: center;
 }
 
@@ -40,13 +40,13 @@ article p {
 }
 
 article img {
-    max-width: 715px; /* Исправленный max-width */
+    max-width: 715px;
     height: auto;
 }
 
 section {
     background-color: #ffffff;
-    padding: 100px 0px; /* Исправленный padding */
+    padding: 100px 0px;
     margin-top: 20px;
 }
 
@@ -55,15 +55,14 @@ select {
     padding: 10px;
     font-size: 16px;
     border: 2px solid #ccc;
-    background-repeat: no-repeat; /* Исправленный background-repeat */
 }
 
 h2 {
-    margin-bottom: 25px; /* Исправленный margin-bottom */
+    margin-bottom: 25px;
 }
 
 ul {
-    padding: 0px 20px; /* Исправленный padding */
+    padding: 0px 20px;
     list-style-type: none;
 }
 
@@ -77,11 +76,11 @@ ul li {
 }
 
 ol {
-    padding: 0px 20px; /* Исправленный padding */
+    padding: 0px 20px;
 }
 
 input {
-    font-size: 16px; /* Исправленный font-size */
+    font-size: 16px;
 }
 
 .addButton {
@@ -94,18 +93,18 @@ input {
 }
 
 hr {
-    margin: 60px 0px; /* Исправленный margin */
+    margin: 60px 0px;
 }
 
 table {
     width: 100%;
     margin: 20px;
-    font-size: 14px; /* Исправленный font-size */
+    font-size: 14px;
 }
 
 th, td {
     border: 1px solid #ccc;
-    padding: 10px;
+    padding: 12px 15px; /* Исправленный padding */
     text-align: center;
 }
 
